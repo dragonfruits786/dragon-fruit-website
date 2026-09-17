@@ -354,7 +354,7 @@ export default function App() {
 
           <div className="urban-art">
             <img
-              src="/images/dragon-fruit-plant.jpg"
+              src="https://imglink.cc/cdn/A5A8CHZeBj.jpg"
               alt="Dragon Fruit Plant"
             />
           </div>
@@ -371,30 +371,30 @@ export default function App() {
           </div>
 
           <div className="gallery-grid">
-            <img src="/images/pink-dragon-fruit.jpg" alt="Pink Dragon Fruit" />
+            <img src="https://imglink.cc/cdn/lx4OvwcksZ.jpg" alt="Pink Dragon Fruit" />
 
             <img
-              src="/images/yellow-dragon-fruit.jpg"
+              src="https://imglink.cc/cdn/C7XmoFqFBO.jpg"
               alt="Yellow Dragon Fruit"
             />
 
             <img
-              src="/images/dragon-fruit-plant.jpg"
+              src="https://imglink.cc/cdn/tw0bOJw3xl.jpg"
               alt="Dragon Fruit Plant"
             />
 
             <img
-              src="/images/white-dragon-fruit.jpg"
+              src="https://imglink.cc/cdn/ZTZYKmBCMq.jpg"
               alt="White Dragon Fruit"
             />
 
             <img
-              src="/images/dragon-fruit-plant.jpg"
+              src="https://imglink.cc/cdn/Mh1TKZaf22.jpg"
               alt="Dragon Fruit Cuttings"
             />
 
             <img
-              src="/images/dragon-fruit-plant.jpg"
+              src="https://imglink.cc/cdn/0NxBA2y4LC.png"
               alt="Young Dragon Fruit Plants"
             />
           </div>
