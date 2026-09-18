@@ -1,4 +1,3 @@
-```tsx
 import { useState } from 'react';
 import './index.css';
 
@@ -23,7 +22,7 @@ const fruitInventory = [
     name: 'White Dragon Fruit',
     color: 'white',
     image: 'https://imglink.cc/cdn/B0aTt-islv.png',
-    text: 'Fresh White Dragon Fruit with a classic, refreshing taste and appearance.',
+    text: 'Fresh White Dragon Fruit with a classic and refreshing appearance.',
   },
 ];
 
@@ -62,22 +61,22 @@ const faqs = [
   {
     question: 'What is Dragon Fruit?',
     answer:
-      'Dragon Fruit is a tropical climbing cactus fruit that can be grown successfully with suitable sunlight, well-draining soil and proper support.',
+      'Dragon Fruit is a tropical climbing cactus fruit that can be grown with suitable sunlight, well-draining soil and proper support.',
   },
   {
     question: 'Can Dragon Fruit be grown in Lahore?',
     answer:
-      'Yes. Dragon Fruit can be grown in Lahore with suitable sunlight, well-draining soil, proper watering and strong structural support.',
+      'Yes. Dragon Fruit can be grown in Lahore with suitable sunlight, well-draining soil, proper watering and strong support.',
   },
   {
-    question: 'How much sunlight does a Dragon Fruit plant need?',
+    question: 'How much sunlight does Dragon Fruit need?',
     answer:
       'Dragon Fruit plants prefer bright sunlight and an open growing space for healthy growth.',
   },
   {
     question: 'What type of soil is best for Dragon Fruit?',
     answer:
-      'Well-draining soil is important for Dragon Fruit. Choose soil that allows excess water to drain properly and prevents waterlogging around the roots.',
+      'Well-draining soil is important. Choose soil that allows excess water to drain properly and prevents waterlogging around the roots.',
   },
   {
     question: 'Where can Dragon Fruit plants be grown?',
@@ -570,4 +569,3 @@ export default function App() {
     </div>
   );
 }
-```
