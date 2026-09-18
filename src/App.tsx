@@ -57,6 +57,34 @@ const socials = [
   ['TikTok', 'https://www.tiktok.com/@dragonfruits146?_r=1&_t=ZS-99nIqlUFqVx'],
 ];
 
+const faqs = [
+  {
+    question: 'Dragon Fruit kya hai?',
+    answer:
+      'Dragon Fruit ek tropical climbing cactus fruit hai jo warm climate, sunlight aur proper support ke saath grow kiya ja sakta hai.',
+  },
+  {
+    question: 'Kya Dragon Fruit Lahore mein grow ho sakta hai?',
+    answer:
+      'Ji haan, Lahore mein suitable sunlight, well-draining soil, proper watering aur strong support ke saath Dragon Fruit plants grow kiye ja sakte hain.',
+  },
+  {
+    question: 'Dragon Fruit plant ko kitni sunlight chahiye?',
+    answer:
+      'Dragon Fruit plant ko healthy growth ke liye bright sunlight aur open growing space pasand hai.',
+  },
+  {
+    question: 'Dragon Fruit plant ke liye kis type ki soil chahiye?',
+    answer:
+      'Well-draining soil zaroori hai. Aisi soil choose karein jisme pani khara na rahe aur roots ko proper drainage mile.',
+  },
+  {
+    question: 'Dragon Fruit plants kahan grow kiye ja sakte hain?',
+    answer:
+      'Suitable support aur sunlight ke saath Dragon Fruit plants home gardens, balconies, rooftops aur backyard spaces mein grow kiye ja sakte hain.',
+  },
+];
+
 function whatsapp(
   message = 'Assalam o Alaikum, mujhe Dragon Fruits ke fruits aur plants ke bare mein maloomat chahiye.'
 ) {
@@ -106,6 +134,10 @@ export default function App() {
             Gallery
           </a>
 
+          <a href="#faq" onClick={() => setMenu(false)}>
+            FAQ
+          </a>
+
           <a href="#contact" onClick={() => setMenu(false)}>
             Contact
           </a>
@@ -128,13 +160,13 @@ export default function App() {
             <span className="eyebrow">🌱 FRUIT • PLANTS • URBAN GARDEN</span>
 
             <h1>
-              Grow Something <em>Extraordinary </em> with Dragon Fruit.
+              Grow Something <em>Extraordinary</em> with Dragon Fruit.
             </h1>
 
             <p>
-              Fresh Pink, Yellow aur White Dragon Fruit ke saath healthy dragon fruit
-              plants — Lahore mein home gardens, balconies, rooftops aur urban gardening
-              ke liye. Growing guidance bhi available hai.
+              Fresh Pink, Yellow aur White Dragon Fruit ke saath healthy dragon
+              fruit plants — Lahore mein home gardens, balconies, rooftops aur
+              urban gardening ke liye. Growing guidance bhi available hai.
             </p>
 
             <div className="hero-actions">
@@ -372,7 +404,10 @@ export default function App() {
           </div>
 
           <div className="gallery-grid">
-            <img src="https://imglink.cc/cdn/lx4OvwcksZ.jpg" alt="Pink Dragon Fruit" />
+            <img
+              src="https://imglink.cc/cdn/lx4OvwcksZ.jpg"
+              alt="Pink Dragon Fruit"
+            />
 
             <img
               src="https://imglink.cc/cdn/C7XmoFqFBO.jpg"
@@ -418,6 +453,32 @@ export default function App() {
             balconies, rooftops aur urban gardening ke liye quality fruits,
             plants aur practical growing guidance available hai.
           </p>
+        </section>
+
+        {/* FAQ */}
+        <section id="faq" className="section faq">
+          <div className="section-head center">
+            <span className="eyebrow">FAQ</span>
+
+            <h2>
+              Dragon Fruit ke <span>Common Questions</span>
+            </h2>
+
+            <p>
+              Dragon Fruit growing, plants aur Lahore mein urban gardening ke
+              bare mein useful information.
+            </p>
+          </div>
+
+          <div className="faq-grid">
+            {faqs.map((item) => (
+              <details className="faq-card" key={item.question}>
+                <summary>{item.question}</summary>
+
+                <p>{item.answer}</p>
+              </details>
+            ))}
+          </div>
         </section>
 
         {/* CONTACT */}
@@ -492,7 +553,7 @@ export default function App() {
 
         <div className="footer-bottom">
           <span>
-            © {new Date().getFullYear()} DRAGON FRUITS. All rights reserved.
+            ©️ {new Date().getFullYear()} DRAGON FRUITS. All rights reserved.
           </span>
 
           <a href={whatsapp()}>WhatsApp</a>
