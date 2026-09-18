@@ -1,3 +1,4 @@
+```tsx
 import { useState } from 'react';
 import './index.css';
 
@@ -10,19 +11,19 @@ const fruitInventory = [
     name: 'Yellow Dragon Fruit',
     color: 'yellow',
     image: 'https://imglink.cc/cdn/0TQp1tsKSq.png',
-    text: 'Fresh Yellow Dragon Fruit with a bright golden look.',
+    text: 'Fresh Yellow Dragon Fruit with a naturally bright golden appearance.',
   },
   {
     name: 'Pink Dragon Fruit',
     color: 'pink',
     image: 'https://imglink.cc/cdn/kNuyZ7girR.png',
-    text: 'Fresh Pink Dragon Fruit with a vibrant, premium appearance.',
+    text: 'Fresh Pink Dragon Fruit with a vibrant color and premium appearance.',
   },
   {
     name: 'White Dragon Fruit',
     color: 'white',
     image: 'https://imglink.cc/cdn/B0aTt-islv.png',
-    text: 'Fresh White Dragon Fruit with a classic refreshing profile.',
+    text: 'Fresh White Dragon Fruit with a classic, refreshing taste and appearance.',
   },
 ];
 
@@ -31,19 +32,19 @@ const plantInventory = [
     name: 'Pink Dragon Fruit Plant',
     color: 'pink',
     image: 'https://imglink.cc/cdn/0W2NGHSszl.png',
-    text: 'Healthy Pink Dragon Fruit plant for home, balcony and rooftop gardens.',
+    text: 'Healthy Pink Dragon Fruit plants for homes, balconies and rooftop gardens.',
   },
   {
     name: 'Yellow Dragon Fruit Plant',
     color: 'yellow',
     image: 'https://imglink.cc/cdn/hGyQz8xS0l.png',
-    text: 'Healthy Yellow Dragon Fruit plant for urban and home gardens.',
+    text: 'Healthy Yellow Dragon Fruit plants for home and urban gardens.',
   },
   {
     name: 'White Dragon Fruit Plant',
     color: 'white',
     image: 'https://imglink.cc/cdn/D8jsGvV1f3.png',
-    text: 'Healthy White Dragon Fruit plant for home and rooftop growing.',
+    text: 'Healthy White Dragon Fruit plants for home and rooftop growing.',
   },
 ];
 
@@ -59,34 +60,34 @@ const socials = [
 
 const faqs = [
   {
-    question: 'Dragon Fruit kya hai?',
+    question: 'What is Dragon Fruit?',
     answer:
-      'Dragon Fruit ek tropical climbing cactus fruit hai jo warm climate, sunlight aur proper support ke saath grow kiya ja sakta hai.',
+      'Dragon Fruit is a tropical climbing cactus fruit that can be grown successfully with suitable sunlight, well-draining soil and proper support.',
   },
   {
-    question: 'Kya Dragon Fruit Lahore mein grow ho sakta hai?',
+    question: 'Can Dragon Fruit be grown in Lahore?',
     answer:
-      'Ji haan, Lahore mein suitable sunlight, well-draining soil, proper watering aur strong support ke saath Dragon Fruit plants grow kiye ja sakte hain.',
+      'Yes. Dragon Fruit can be grown in Lahore with suitable sunlight, well-draining soil, proper watering and strong structural support.',
   },
   {
-    question: 'Dragon Fruit plant ko kitni sunlight chahiye?',
+    question: 'How much sunlight does a Dragon Fruit plant need?',
     answer:
-      'Dragon Fruit plant ko healthy growth ke liye bright sunlight aur open growing space pasand hai.',
+      'Dragon Fruit plants prefer bright sunlight and an open growing space for healthy growth.',
   },
   {
-    question: 'Dragon Fruit plant ke liye kis type ki soil chahiye?',
+    question: 'What type of soil is best for Dragon Fruit?',
     answer:
-      'Well-draining soil zaroori hai. Aisi soil choose karein jisme pani khara na rahe aur roots ko proper drainage mile.',
+      'Well-draining soil is important for Dragon Fruit. Choose soil that allows excess water to drain properly and prevents waterlogging around the roots.',
   },
   {
-    question: 'Dragon Fruit plants kahan grow kiye ja sakte hain?',
+    question: 'Where can Dragon Fruit plants be grown?',
     answer:
-      'Suitable support aur sunlight ke saath Dragon Fruit plants home gardens, balconies, rooftops aur backyard spaces mein grow kiye ja sakte hain.',
+      'With suitable sunlight and support, Dragon Fruit plants can be grown in home gardens, balconies, rooftops and backyard spaces.',
   },
 ];
 
 function whatsapp(
-  message = 'Assalam o Alaikum, mujhe Dragon Fruits ke fruits aur plants ke bare mein maloomat chahiye.'
+  message = 'Hello, I would like to know more about your Dragon Fruits and plants.'
 ) {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 }
@@ -100,6 +101,7 @@ export default function App() {
       <header className="nav">
         <a className="brand" href="#home" onClick={() => setMenu(false)}>
           <span className="brand-mark">🐉</span>
+
           <span>
             DRAGON <b>FRUITS</b>
           </span>
@@ -145,7 +147,7 @@ export default function App() {
           <a
             className="nav-order"
             href={whatsapp(
-              'Assalam o Alaikum, mujhe Dragon Fruits ke products order karne hain.'
+              'Hello, I would like to place an order for Dragon Fruits or plants.'
             )}
           >
             WhatsApp Order
@@ -164,9 +166,9 @@ export default function App() {
             </h1>
 
             <p>
-              Fresh Pink, Yellow aur White Dragon Fruit ke saath healthy dragon
-              fruit plants — Lahore mein home gardens, balconies, rooftops aur
-              urban gardening ke liye. Growing guidance bhi available hai.
+              Fresh Pink, Yellow and White Dragon Fruit, along with healthy
+              Dragon Fruit plants for home gardens, balconies, rooftops and
+              urban gardening in Lahore. Growing guidance is also available.
             </p>
 
             <div className="hero-actions">
@@ -209,8 +211,8 @@ export default function App() {
             </div>
 
             <p>
-              Pink, Yellow aur White Dragon Fruit varieties alag-alag cards mein
-              available hain.
+              Explore our Pink, Yellow and White Dragon Fruit varieties,
+              presented individually for easy browsing.
             </p>
           </div>
 
@@ -235,7 +237,7 @@ export default function App() {
 
                     <a
                       href={whatsapp(
-                        `Assalam o Alaikum, mujhe ${item.name} ka price aur availability chahiye.`
+                        `Hello, I would like to know the price and availability of ${item.name}.`
                       )}
                     >
                       Order →
@@ -259,8 +261,8 @@ export default function App() {
             </div>
 
             <p>
-              Pink, Yellow aur White varieties ke healthy plants home aur
-              rooftop gardens ke liye.
+              Healthy Pink, Yellow and White Dragon Fruit plants for home,
+              balcony and rooftop gardens.
             </p>
           </div>
 
@@ -288,7 +290,7 @@ export default function App() {
 
                     <a
                       href={whatsapp(
-                        `Assalam o Alaikum, mujhe ${item.name} order karna hai. Price aur availability batayein.`
+                        `Hello, I would like to order a ${item.name}. Please share the price and availability.`
                       )}
                     >
                       Order →
@@ -303,7 +305,7 @@ export default function App() {
             <div>
               <span>🌿</span>
               <b>Healthy Plants</b>
-              <small>Home & rooftop gardening</small>
+              <small>Ideal for home & rooftop gardening</small>
             </div>
 
             <div>
@@ -326,7 +328,7 @@ export default function App() {
             <span className="eyebrow">GROWING GUIDE</span>
 
             <h2>
-              Dragon Fruit ko <span>Healthy</span> Rakhein
+              Keep Your Dragon Fruit <span>Healthy</span>
             </h2>
           </div>
 
@@ -335,22 +337,22 @@ export default function App() {
               [
                 '☀️',
                 'Sunlight',
-                'Bright sunlight aur open space growth ko support karta hai.',
+                'Bright sunlight and an open growing space support healthy plant growth.',
               ],
               [
                 '🪴',
                 'Soil',
-                'Well-draining soil aur achi drainage wala pot choose karein.',
+                'Choose well-draining soil and a container with proper drainage.',
               ],
               [
                 '💧',
                 'Watering',
-                'Pani dein, lekin soil ko continuously waterlogged na rakhein.',
+                'Water when needed, but avoid keeping the soil continuously waterlogged.',
               ],
               [
                 '🪵',
                 'Support',
-                'Strong trellis ya support climbing growth ke liye zaroori hai.',
+                'A strong trellis or support structure is important for climbing growth.',
               ],
             ].map(([icon, title, text]) => (
               <div className="guide-card" key={title}>
@@ -376,8 +378,8 @@ export default function App() {
             </h2>
 
             <p>
-              Rooftop, balcony ya backyard — sahi support aur care ke saath
-              Dragon Fruit ko urban space mein bhi grow kiya ja sakta hai.
+              Rooftop, balcony or backyard — with the right support and care,
+              Dragon Fruit can be grown successfully in urban spaces.
             </p>
 
             <a className="btn light-btn" href="#contact">
@@ -448,10 +450,10 @@ export default function App() {
           </div>
 
           <p>
-            DRAGON FRUITS Lahore mein fresh Pink, Yellow aur White Dragon Fruit
-            aur healthy dragon fruit plants provide karta hai. Home gardens,
-            balconies, rooftops aur urban gardening ke liye quality fruits,
-            plants aur practical growing guidance available hai.
+            DRAGON FRUITS provides fresh Pink, Yellow and White Dragon Fruit
+            along with healthy Dragon Fruit plants in Lahore. We serve home
+            gardens, balconies, rooftops and urban gardening needs with quality
+            fruits, plants and practical growing guidance.
           </p>
         </section>
 
@@ -461,12 +463,12 @@ export default function App() {
             <span className="eyebrow">FAQ</span>
 
             <h2>
-              Dragon Fruit ke <span>Common Questions</span>
+              Common Dragon Fruit <span>Questions</span>
             </h2>
 
             <p>
-              Dragon Fruit growing, plants aur Lahore mein urban gardening ke
-              bare mein useful information.
+              Find useful information about Dragon Fruit, plants and growing in
+              Lahore.
             </p>
           </div>
 
@@ -490,7 +492,8 @@ export default function App() {
               <h2>Ready to Grow?</h2>
 
               <p>
-                Fruit varieties, plants ya order ke liye humse rabta karein.
+                Contact us for fruit varieties, Dragon Fruit plants, orders or
+                growing information.
               </p>
             </div>
 
@@ -567,3 +570,4 @@ export default function App() {
     </div>
   );
 }
+```
