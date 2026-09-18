@@ -128,7 +128,7 @@ export default function App() {
             <span className="eyebrow">🌱 FRUIT • PLANTS • URBAN GARDEN</span>
 
             <h1>
-              Grow Something <em>Extraordinary.</em> with Dragon Fruit
+              Grow Something <em>Extraordinary </em> with Dragon Fruit.
             </h1>
 
             <p>
