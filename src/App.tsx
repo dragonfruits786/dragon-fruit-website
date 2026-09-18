@@ -3,7 +3,7 @@ import './index.css';
 
 const WHATSAPP_NUMBER = '923390142104';
 const PHONE_DISPLAY = '0339 0142104';
-const EMAIL = 'gragonfruits786@gmail.com';
+const EMAIL = 'dragonfruits786@gmail.com';
 
 const fruitInventory = [
   {
