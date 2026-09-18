@@ -413,9 +413,10 @@ export default function App() {
           </div>
 
           <p>
-            DRAGON FRUITS ka focus quality dragon fruits aur healthy plants ko
-            fruit lovers aur home gardeners tak pohanchana hai. Lahore se urban
-            gardening ko simple, colorful aur enjoyable banane ka maqsad hai.
+            DRAGON FRUITS Lahore mein fresh Pink, Yellow aur White Dragon Fruit
+            aur healthy dragon fruit plants provide karta hai. Home gardens,
+            balconies, rooftops aur urban gardening ke liye quality fruits,
+            plants aur practical growing guidance available hai.
           </p>
         </section>
 
