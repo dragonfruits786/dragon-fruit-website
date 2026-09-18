@@ -132,8 +132,9 @@ export default function App() {
             </h1>
 
             <p>
-              Premium Dragon Fruits aur healthy dragon fruit plants — Lahore
-              mein urban gardens, rooftops aur home growers ke liye.
+              Fresh Pink, Yellow aur White Dragon Fruit ke saath healthy dragon fruit
+              plants — Lahore mein home gardens, balconies, rooftops aur urban gardening
+              ke liye. Growing guidance bhi available hai.
             </p>
 
             <div className="hero-actions">
